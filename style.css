@@ -2032,7 +2032,7 @@ span.new {
 }
 .breadcumb-overlay {
   position: absolute;
-  background: rgba(0,47,77,0.90);
+  background: rgba(231,230,230,0.90);
   top: 0;
   width: 100%;
   left: 0;
@@ -2047,7 +2047,7 @@ span.new {
     padding: 230px 0px 200px;
 }
 .breadcrumb h3 {
-    color: #fff;
+    color: #696969;
     text-transform: capitalize;
     font-size: 34px;
     font-weight: 600;
@@ -2072,7 +2072,7 @@ span.new {
 }
 .breadcrumb ul li {
     display: inline-block;
-    color: #fff;
+    color: #214ED3;
     padding: 0px 10px 0px 20px;
     position: relative;
     font-size: 16px;
