@@ -1,207 +1,870 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Made Easyy</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-        <!-- Simple line icons-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top" style="background-color:black">
-        <!-- Navigation-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav" > 
-                <li class="sidebar-brand"><a href="#page-top">MadeEasyy</a></li>
-                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                <li class="sidebar-nav-item"><a href="#about">About</a></li>
-                <li class="sidebar-nav-item"><a href="#services">Services</a></li>
-                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
-                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <!-- Header-->
-        <header class="masthead d-flex align-items-center">
-            <div class="container px-4 px-lg-5 text-center">
-                <img src="assets/img/logo_made_white.svg" class="img-fluid" width="600" alt="">
-                <h1 class="mb-1">
-                    <!-- <span style="color:#000000">Made</span>
-                    <span style="color:white">Easyy</span></h1> -->
-                    <span style="color:white">Learn in Easy Way</span></h1>
-                <!-- <h3 class="mb-5" style="color:#ffffff"><em>Learn in Easy way</em></h3> -->
-                <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
-            </div>
-        </header>
-        <!-- Our Courses-->
-        <section class="content-section" id="portfolio">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading text-center">
-                    <h2 class="text-secondary mb-0">Udemy</h2>
-                    <h2 class="mb-5" style="color:white">Recent Courses</h2>
-                </div>
-                <div class="row gx-0">
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Streamlit</div>
-                                    <p class="mb-0">Learn and Deploy Data Science Apps with Streamlit</p>
-                                </div>
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>MadeEasyy</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- favicon -->
+		<link rel="shortcut icon" type="image/x-icon" href="img/logo/favicon.ico">
+
+		<!-- all css here -->
+
+		<!-- bootstrap v3.3.6 css -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- owl.carousel css -->
+		<link rel="stylesheet" href="css/owl.carousel.css">
+		<link rel="stylesheet" href="css/owl.transitions.css">
+       <!-- Animate css -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- meanmenu css -->
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+		<!-- font-awesome css -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/icon.css">
+		<link rel="stylesheet" href="css/flaticon.css">
+		<!-- magnific css -->
+        <link rel="stylesheet" href="css/magnific.min.css">
+		<!-- style css -->
+		<link rel="stylesheet" href="style.css">
+		<!-- responsive css -->
+		<link rel="stylesheet" href="css/responsive.css">
+
+		<!-- modernizr css -->
+		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	</head>
+		<body>
+
+		<!--[if lt IE 8]>
+			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+        <div id="preloader"></div>
+        <header class="header-one">
+            <!-- header-area start -->
+            <div id="sticker" class="header-area hidden-xs">
+                <div class="container">
+                    <div class="row">
+                        <!-- logo start -->
+                        <div class="col-md-3 col-sm-3">
+                            <div class="logo">
+                                <!-- Brand -->
+                                <a class="navbar-brand page-scroll black-logo" href="index.html">
+                                    <img class="image-fluid" src="img/logo/logo_color.svg" width="200" alt="">
+                                </a>
+                                <a class="navbar-brand page-scroll white-logo" href="index.html">
+                                    <img class="image-fluid" src="img/logo/logo_color.svg" width="200" alt="">
+                                </a>
                             </div>
-                            <img class="img-fluid" src="assets/img/course-1.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <div>
-                            <p> This course is one the best course</p>
+                            <!-- logo end -->
                         </div>
-                        <!-- <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Ice Cream</div>
-                                    <p class="mb-0" style="color:black">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                        <div class="col-md-9 col-sm-9">
+                            <div class="header-right-link">
+                                <!-- search option end -->
+								<a class="s-menu">Sign in</a>
+                            </div>
+                            <!-- mainmenu start -->
+                            <nav class="navbar navbar-default">
+                                <div class="collapse navbar-collapse" id="navbar-example">
+                                    <div class="main-menu">
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a class="pagess" href="index.html">Home</a>
+
+                                            </li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="services.html">Services</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="services.html">Artificial Intelligence</a></li>
+                                                    <li><a href="services.html">Machine Learning</a></li>
+                                                    <li><a href="services.html">Computer Vision</a></li>
+                                                    <li><a href="services.html">Natural Language Processing</a></li>
+                                                    <li><a href="services.html">Automation</a></li>
+                                                    <li><a href="services.html">Cloud Technologies</a></li>
+                                                    <li><a href="services.html">Staff Augmentation </a></li>
+                                                    <li><a href="services.html">Big Data Analytics</a></li>
+                                                    <li><a href="services.html">Internet of Things (IoT)</a></li>
+
+                                                </ul>
+                                            </li>
+                                            <li><a href="products.html">Products</a>
+                                            <ul class="sub-menu" style="width:280px;">
+                                                <li><a href="docnizer.html">Docnizer - OCR</a></li>
+                                                <li><a href="retail.html">MEVision - Retail Analytics</a></li>
+                                                <li><a href="products.html">METalk - Chat Bot</a></li>
+                                                <li><a href="products.html">MEWrangler - Data Mining Tool</a></li>
+                                                <li><a href="predictive.html">Predictive Analytics</a></li>
+                                                <li><a href="products.html">CRM Tool</a></li>
+                                                <li><a href="products.html">Recommendation System</a></li>
+                                                <li><a href="products.html">Traffics Signal Control</a></li>
+                                                <li><a href="products.html">EEG Signal Analysis - Health Care</a></li>
+                                            </ul>
+                                            </li>
+                                              <li><a class="pagess" href="blog.html">Technologies</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="blog.html">Data Science</a></li>
+                                                    <li><a href="blog.html">Big Data</a></li>
+                                                    <li><a href="blog.html">Data Base</a></li>
+                                                    <li><a href="blog.html">Cloud</a></li>
+                                                    <li><a href="blog.html">Web Technologies</a></li>
+                                                    <li><a href="blog.html">Digital Marketing</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">contacts</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                            <!-- mainmenu end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- header-area end -->
+            <!-- mobile-menu-area start -->
+            <div class="mobile-menu-area hidden-lg hidden-md hidden-sm">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="mobile-menu">
+                                <div class="logo">
+                                    <a href="index.html"><img src="img/logo/logo2.png" width="150" height="46" alt="" /></a>
+                                </div>
+                                <nav id="dropdown">
+                                    <ul>
+                                       <li><a class="pagess" href="index.html">Home</a>
+
+                                            </li>
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="services.html">Services</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="services.html">Artificial Intelligence</a></li>
+                                                    <li><a href="services.html">Machine Learning</a></li>
+                                                    <li><a href="services.html">Computer Vision</a></li>
+                                                    <li><a href="services.html">Natural Language Processing</a></li>
+                                                    <li><a href="services.html">Automation</a></li>
+                                                    <li><a href="services.html">Cloud Technologies</a></li>
+                                                    <li><a href="services.html">Staff Augmentation </a></li>
+                                                    <li><a href="services.html">Big Data Analytics</a></li>
+                                                    <li><a href="services.html">Internet of Things (IoT)</a></li>
+
+                                                </ul>
+                                            </li>
+                                            <li><a href="products.html">Products</a>
+                                                <ul class="sub-menu" style="width:280px;">
+                                                    <li><a href="docnizer.html">Docnizer - OCR</a></li>
+                                                    <li><a href="retail.html">MEVision - Retail Analytics</a></li>
+                                                    <li><a href="products.html">METalk - Chat Bot</a></li>
+                                                    <li><a href="products.html">MEWrangler - Data Mining Tool</a></li>
+                                                    <li><a href="predictive.html">Predictive Analytics</a></li>
+                                                    <li><a href="products.html">CRM Tool</a></li>
+                                                    <li><a href="products.html">Recommendation System</a></li>
+                                                    <li><a href="products.html">Traffics Signal Control</a></li>
+                                                    <li><a href="products.html">EEG Signal Analysis - Health Care</a></li>
+                                                </ul>
+                                            </li>
+                                              <li><a class="pagess" href="blog.html">Technologies</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="blog.html">Data Science</a></li>
+                                                    <li><a href="blog.html">Big Data</a></li>
+                                                    <li><a href="blog.html">Data Base</a></li>
+                                                    <li><a href="blog.html">Cloud</a></li>
+                                                    <li><a href="blog.html">Web Technologies</a></li>
+                                                    <li><a href="blog.html">Digital Marketing</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="contact.html">contacts</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- mobile-menu-area end -->
+        </header>
+        <!-- header end -->
+        <!-- Start Slider Area -->
+        <div class="intro-area intro-home">
+            <div class="bg-wrapper">
+            	<img src="img/background/bg.jpg" alt="">
+            </div>
+			<div class="intro-content">
+				<div class="slider-content">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<!-- layer 1 -->
+								<div class="layer-1 wow fadeInUp" data-wow-delay="0.3s">
+								    <h6 class="best-title"><span class="slide-icon"><i class="icon icon-layers"></i></span>Data driven company</h6>
+									<h2 class="title2">Artificial intelligence & Data Science Courses</h2>
+								</div>
+								<!-- layer 2 -->
+								<div class="layer-2 wow fadeInUp" data-wow-delay="0.5s">
+									<p>We are, team of engineers, machine learning experts,and more working together to advance state of art artificial intelligence. We've always been fascinated by technology and services. It's what gives us the ability to solve problems and find creative ideas.</p>
+								</div>
+								<!-- layer 3 -->
+								<div class="layer-3 wow fadeInUp" data-wow-delay="0.7s">
+									<a  href="services.html" class="ready-btn left-btn" >Courses</a>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 hidden-xs">
+								<div class="slide-images-inner wow fadeInUp" data-wow-delay="0.5s">
+                                    <div class="slide-top-image item-bounce">
+                                        <img src="img/slider/sp1.png" alt="">
+                                    </div>
+                                    <div class="slide-images">
+                                        <img src="img/slider/s1.png" alt="">
+                                    </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+        <!-- End Slider Area -->
+        <!-- Welcome service area start -->
+        <div class="welcome-area area-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="all-services">
+                    	<!-- single-well end-->
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="well-services wow fadeInUp" data-wow-delay="0.3s">
+								<div class="services-img">
+                                    <a href="#">
+                                        <img src="img/services/w1.png" alt="">
+                                    </a>
+									
+								</div>
+								<div class="main-wel">
+									<div class="wel-content">
+                                        <a href="#">
+                                            <h4>Courses on Computer Vision</h4>
+										<p>NLP is a subfield of linguistics, computer science and information engineering concerned with the interactions between computers and human languages.</p>
+                                    </a>
+                                        <a class="wel-btn"><i class="icon icon-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- single-well end-->
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="well-services wow fadeInUp" data-wow-delay="0.5s">
+								<div class="services-img">
+									<img src="img/services/w2.png" alt="">
+								</div>
+								<div class="main-wel">
+									<div class="wel-content">
+										<h4>Courses on Data Science</h4>
+										<p>Computer vision is an interdisciplinary scientific field that deals with how computers can be made to gain high-level understanding from digital images or videos.</p>
+										<a class="wel-btn"><i class="icon icon-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- single-well end-->
+						<div class="col-md-4 col-sm-6 col-xs-12">
+							<div class="well-services wow fadeInUp" data-wow-delay="0.7s">
+								<div class="services-img">
+									<img src="img/services/w3.png" alt="">
+								</div>
+								<div class="main-wel">
+									<div class="wel-content">
+										<h4>Courses on Machine Learning + Web App</h4>
+										<p>ML is an application of artificial intelligence that provides systems the ability to learn and improve from experience without being explicitly programmed. Focuses on the development of computer programs that can access data.</p>
+										<a class="wel-btn"><i class="icon icon-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- single-well end-->
+						<div class="hidden-md hidden-lg col-sm-6 col-xs-12">
+							<div class="well-services wow fadeInUp" data-wow-delay="0.9s">
+								<div class="services-img">
+									<img src="img/services/w4.png" alt="">
+								</div>
+								<div class="main-wel">
+									<div class="wel-content">
+										<h4>Process Automation</h4>
+										<p>Robotic process automation (RPA) involves automating process oriented jobs by using smart programs.</p>
+										<a class="wel-btn"><i class="icon icon-arrow-right"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- single-well end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Welcome service area End -->
+        <!-- Start Brand Area -->
+        <div class="about-area  fix area-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="about-content">
+                            <div class="about-images wow fadeInLeft" data-wow-delay="0.7s">
+                                <div class="rotmate-image rotateme">
+                                    <img src="img/about/circle.png" alt="">
+                                </div>
+                                <img src="img/about/ab.png" alt="">
+<!--                                <div class="video-content">-->
+<!--                                    <a href="https://www.youtube.com/watch?v=O33uuBh6nXA" class="video-play vid-zone">-->
+<!--                                        <i class="fa fa-play"></i>-->
+<!--                                    </a>-->
+<!--                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                   <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="support-all">
+                            <!-- Start services -->
+                            <div class="support-services wow fadeInUp" data-wow-delay="0.3s">
+                               <a class="support-images">01</a>
+                                <div class="support-content">
+                                    <h4><a>Products</a></h4>
+                                    <p>Enterprise products ability to solve real world products.</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/course-2.jpg" alt="..." />
-                        </a> -->
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Strawberries</div>
-                                    <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                            <!-- Start services -->
+                            <div class="support-services wow fadeInUp" data-wow-delay="0.5s">
+                                <a class="support-images">02</a>
+                                <div class="support-content">
+                                    <h4><a>Consulting</a></h4>
+                                    <p>Accelerate your digital transformation and achieve business results.</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/course-3.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Workspace</div>
-                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                            <!-- Start services -->
+                            <div class="support-services hidden-sm wow fadeInUp" data-wow-delay="0.7s">
+                                <a class="support-images">03</a>
+                                <div class="support-content">
+                                    <h4><a>Services</a></h4>
+                                    <p>Provides service in the field on artificial intelligence and digital marketing.</p>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." />
-                        </a>
+                             <!-- Start services -->
+                            <div class="support-services hidden-sm wow fadeInUp" data-wow-delay="0.7s">
+                                <a class="support-images">04</a>
+                                <div class="support-content">
+                                    <h4><a>Staffing Solutions</a></h4>
+                                    <p>Provides a full range of solutions including temporary and permanent staffing, outsourcing and workforce solutions.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Start services -->
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+       <!-- End Banner Area -->
+        <!-- Start About Area -->
+        <div class="feature-area area-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="feature-image item-bounce wow fadeInLeft" data-wow-delay="0.3s">
+                            <img src="img/feature/ft.png" alt="">
+                        </div>
+                        <div class="triangle-1">
+                            <img src="img/about/t1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="feature-inner wow fadeInRight" data-wow-delay="0.3s">
+                            <div class="feature-text">
+                               <h3>Industrial Predictive Maintenance and Analytics</h3>
+                                <p>Industrial Predictive Maintenance and Analytics is process optimizer by observing machine health and conditions through sensor data.</p>
+                                <ul>
+                                   <li><a><i class="flaticon-007-ai"></i><span> Time to failure prediction (TTF and TTS)</span></a></li>
+                                    <li><a><i class="flaticon-048-cloud"></i><span> Predicting which equipment is likely to get fail.</span></a></li>
+                                    <li><a><i class="flaticon-076-lock"></i><span> Interactive dashboard integrate to ERP</span></a></li>
+                                    <li><a><i class="flaticon-104-robotic-hand"></i><span> Generate alerts to manager</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end Row -->
+            </div>
+        </div>
+        <!-- End About Area -->
+        <!-- Start About Area -->
+        <div class="feature-area-2 area-padding">
+            <div class="container">
+                <div class="row">
+                   <div class="hidden-md hidden-lg hidden-sm col-xs-12">
+                        <div class="feature-image item-bounce wow fadeInRight" data-wow-delay="0.3s">
+                            <img src="img/feature/ft1.png" alt="">
+                        </div>
+                    </div>
+                   <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="feature-inner wow fadeInLeft" data-wow-delay="0.3s">
+                            <div class="feature-text">
+                               <h3>Docnizer Robotic Process Automation Tool</h3>
+                                <p>Docnizer is a tool which capture data from paper (scanned document). Categories the documents and distribute accordingly. Captures data from scanned paper documents, images or pictures etc., and populated necessary fields in the database accordingly.</p>
+                                <ul>
+                                    <li><a><i class="flaticon-104-robotic-hand"></i><span> Automation</span></a></li>
+                                   <li><a><i class="flaticon-007-ai"></i><span> Fast Turn around time</span></a></li>
+                                    <li><a><i class="flaticon-048-cloud"></i><span> Cost effective</span></a></li>
+                                    <li><a><i class="flaticon-076-lock"></i><span> Flexibility</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 hidden-xs">
+                        <div class="feature-image item-bounce wow fadeInRight" data-wow-delay="0.3s">
+                            <img src="img/feature/ft1.png" alt="">
+                        </div>
+                        <div class="triangle-2">
+                            <img src="img/about/t2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- end Row -->
+            </div>
+        </div>
+        <!-- End About Area -->
+        <!-- Start Challange Area -->
+        <div class="tab-area fix area-padding">
+            <div class="container">
+                <div class="row">
+					<!-- End single page -->
+					<div class="col-md-5 col-sm-6 col-xs-12">
+						<div class="tab-menu">
+							 <!-- Nav tabs -->
+							<ul class="nav nav-tabs" role="tablist">
+								<li class="active">
+								    <a href="#p-view-1" role="tab" data-toggle="tab">
+							            <span class="cha-icon"><i class="flaticon-017-automation"></i></span>
+								        <span class="title-date">
+								        	<span class="cha-title">Heavy industry</span>
+								            <span class="cha-date">All kind of industry</span>
+								        </span>
+								    </a>
+								</li>
+								<li>
+								    <a href="#p-view-2" role="tab" data-toggle="tab">
+							            <span class="cha-icon"><i class="flaticon-015-artificial-intelligence"></i></span>
+								        <span class="title-date">
+								        	<span class="cha-title">Transportation</span>
+								            <span class="cha-date">All kind of transport</span>
+								        </span>
+								    </a>
+								</li>
+								<li>
+							        <a href="#p-view-3" role="tab" data-toggle="tab">
+							            <span class="cha-icon"><i class="flaticon-030-human"></i></span>
+								        <span class="title-date">
+								        	<span class="cha-title">Healthcare</span>
+								            <span class="cha-date">human health research</span>
+								        </span>
+								    </a>
+								</li>
+								<li>
+							        <a href="#p-view-4" role="tab" data-toggle="tab">
+							           <span class="cha-icon"><i class="flaticon-091-ai"></i></span>
+								        <span class="title-date">
+								        	<span class="cha-title">Entertainment</span>
+								            <span class="cha-date">speech and audio</span>
+								        </span>
+								    </a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-7 col-sm-6 col-xs-12">
+						<div class="tab-content">
+							<div class="tab-pane active" id="p-view-1" >
+								<div class="tab-inner">
+									<div class="single-machine">
+									    <div class="machine-text">
+										    <h3>Artificial intelligence in Retail industry</h3>
+										    <p>Face Recognition technology and Recommendation system</p>
+                                             <ul>
+                                                <li><a><i class="flaticon-104-robotic-hand"></i><span> Face detection</span></a></li>
+                                               <li><a><i class="flaticon-007-ai"></i><span> Age, gender, emotion</span></a></li>
+                                                <li><a><i class="flaticon-048-cloud"></i><span> Theft analysis</span></a></li>
+                                                 <li><a><i class="flaticon-007-ai"></i><span> Home automation with motion recognition</span></a></li>
+                                                <li><a><i class="flaticon-048-cloud"></i><span> Drowsiness detection</span></a></li>
+                                            </ul>
+										</div>
+										<div class="tabe-img">
+											<img src="img/services/s1.png" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="p-view-2">
+								<div class="tab-inner">
+									<div class="single-machine">
+									    <div class="machine-text">
+										    <h3>Traffic Signal Control</h3>
+										    <p>Computer vision and object detection technology.</p>
+                                            <ul>
+                                                <li><a><i class="flaticon-104-robotic-hand"></i><span> Identify number of vehicles in the lane</span></a></li>
+                                               <li><a><i class="flaticon-007-ai"></i><span> Based on density traffic lights will be controlled</span></a></li>
+                                            </ul>
+										</div>
+										<div class="tabe-img">
+											<img src="img/services/s2.png" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="p-view-3">
+								<div class="tab-inner">
+									<div class="single-machine">
+									    <div class="machine-text">
+										    <h3>EEG Signal Analysis </h3>
+										    <p>Based on EGG</p>
+                                            <ul>
+                                                <li><a><i class="flaticon-104-robotic-hand"></i><span> Detects seizure</span></a></li>
+                                               <li><a><i class="flaticon-007-ai"></i><span> Identify affected part</span></a></li>
+                                                <li><a><i class="flaticon-048-cloud"></i><span> Behavior analysis of person</span></a></li>
+                                            </ul>
+										</div>
+										<div class="tabe-img">
+											<img src="img/services/s3.png" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane" id="p-view-4">
+								<div class="tab-inner">
+									<div class="single-machine">
+									    <div class="machine-text">
+										    <h3>Voice Recognition</h3>
+										    <p>Understands human voice and convert audio file into text. Artificial Intelligence Companies offer the services of audio and video classification models that can also be used to label the semantic segmentation. We have designed the real-time speech to text transcription system and speech categorization platforms reinforced by the machine learning models. </p>
+                                            <ul>
+                                                <li><a><i class="flaticon-104-robotic-hand"></i><span> English to text</span></a></li>
+                                               <li><a><i class="flaticon-007-ai"></i><span> Telugu to text</span></a></li>
+                                            </ul>
+										</div>
+										<div class="tabe-img">
+											<img src="img/services/s4.png" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end column -->
+				</div>
+				<!-- end Row -->
+            </div>
+        </div>
+        <!-- End Tab end -->
+        <!-- Start Subscribe area -->
+        <div class="counter-area fix">
+            <div class="container-full">
+                <!-- Start counter Area -->
+                 <div class="row">
+                    <div class="fun-content">
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <!-- fun_text  -->
+                            <div class="fun_text wow fadeInLeft" data-wow-delay="0.2s">
+                                <span class="counter">68</span>
+                                <h4>Projects complete</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <!-- fun_text  -->
+                            <div class="fun_text wow fadeInLeft" data-wow-delay="0.3s">
+                                <span class="counter">8</span>
+                                <h4>Work projects</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <!-- fun_text  -->
+                            <div class="fun_text wow fadeInLeft" data-wow-delay="0.4s">
+                                <span class="counter">2</span>
+                                <h4>Award won</h4>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <!-- fun_text  -->
+                            <div class="fun_text last-content wow fadeInLeft" data-wow-delay="0.5s">
+                                <span class="counter">4</span>
+                                <h4>Happy Clients</h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- About-->
-        <section class="content-section bg-light" id="about">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-10">
-                        <h2>Learn & Deploy your Data Science Apps in easy way</h2>
-                        <p class="lead mb-5">
-                            stick to the point 
-                            <a href="#"></a>
-                            !
-                        </p>
-                        <a class="btn btn-dark btn-xl" href="https://www.udemy.com/user/freeai-space/">Courses</a>
+        </div>
+        <!-- End Subscribe area -->
+     <!-- Start Brand Area -->
+        <div class="brand-area area-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="brand-all">
+                            <div class="brand-items">
+                                <div class="single-brand-item">
+                                    <a><img src="img/brand/udemy.png" alt=""></a>
+                                </div>
+                                <div class="single-brand-item">
+                                    <a><img src="img/brand/skillshare.png" alt=""></a>
+                                </div>
+                                <div class="single-brand-item">
+                                    <a><img src="img/brand/tutorial_point.png" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Services-->
-        <section class="content-section bg-primary text-white text-center" id="services">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading">
-                    <h3 class="text-secondary mb-0">Approach towards</h3>
-                    <h2 class="mb-5">Courses</h2>
+        </div>
+       <!-- End Banner Area -->
+        <!-- Start testimonials Area -->
+        <div class="reviews-area area-padding">
+            <div class="container">
+                <div class="row">
+					<div class="col-md-12 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+						<div class="section-headline review-head text-center">
+							<h3>Happy clients reviews</h3>
+						</div>
+					</div>
+				</div>
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="Reviews-content wow fadeInUp" data-wow-delay="0.3s">
+                            <!-- start testimonial carousel -->
+                            <div class="testimonial-carousel item-indicator">
+                                <div class="single-testi">
+                                    <div class="testi-text">
+                                        <div class="clients-text">
+                                            <div class="client-rating">
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class=""></i></a>
+                                            </div>
+                                            <p>When I first work with MadeEasyy team regarding Predictive Maintenance with artificial intelligence, first thing in my minds is wether they can do it or not. But when I look into the output and accuracy by the AI model is really outstanding and interactive dashboard is world class. We are happy to associated with MadeEasyy.</p>
+                                        </div>
+                                        <div class="testi-img ">
+                                            <img src="img/review/1.jpg" alt="">
+                                            <div class="guest-details">
+                                                <h4>Veera Kumar (plant designer)</h4>
+                                                <span class="guest-rev">Clients - <a>Schneider Electric</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End single item -->
+                                <div class="single-testi">
+                                    <div class="testi-text">
+                                        <div class="clients-text">
+                                            <div class="client-rating">
+                                               <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                            </div>
+                                            <p>It is really pleasure to associate with MadeEasyy. This team is excellent, particularly the structure and standard procedure followed by them is very organized which helps us for increase in revenues.</p>
+                                        </div>
+                                        <div class="testi-img ">
+                                            <img src="img/review/2.jpg" alt="">
+                                            <div class="guest-details">
+                                                <h4>Aravind</h4>
+                                                <span class="guest-rev">Clients - <a>Innomatics Research Labs</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End single item -->
+                                <div class="single-testi">
+                                    <div class="testi-text">
+                                        <div class="clients-text">
+                                            <div class="client-rating">
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                            </div>
+                                            <p>Overall very pleased with effort by the team and his friendliness with us. They did everything we asked in a timely matter. I will definitely be recommending him to other companies. Thanks for such good work.</p>
+                                        </div>
+                                        <div class="testi-img ">
+                                            <img src="img/review/3.jpg" alt="">
+                                            <div class="guest-details">
+                                                <h4>Saritha</h4>
+                                                <span class="guest-rev">Clients - <a>Kenminds IT Solutions Pvt Ltd.,</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End single item -->
+                                <div class="single-testi">
+                                    <div class="testi-text">
+                                        <div class="clients-text">
+                                            <div class="client-rating">
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class="icon icon-star"></i></a>
+                                                <a><i class=""></i></a>
+                                            </div>
+                                            <p>It is pleasure to have such a such a eminent team. They gave our students awareness towards data science and artificial intelligence. Also gave real time expose to the students which help students for their career in data science field.</p>
+                                        </div>
+                                        <div class="testi-img ">
+                                            <img src="img/review/4.jpg" alt="">
+                                            <div class="guest-details">
+                                                <h4>Malla Reddy Engineering College</h4>
+                                                <span class="guest-rev">Clients - <a>Malla Reddy Engineering College</a></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End single item -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
-                        <h4><strong>Foundations</strong></h4>
-                        <p class="text-faded mb-0">Looks great on any screen size!</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
-                        <h4><strong>Desing and Develop</strong></h4>
-                        <p class="text-faded mb-0">Freshly redesigned for Bootstrap 5.</p>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
-                        <h4><strong>Presentation</strong></h4>
-                        <p class="text-faded mb-0">
-                            Millions of users
-                            <i class="fas fa-heart"></i>
-                            Start Bootstrap!
-                        </p>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
-                        <h4><strong>Deploy</strong></h4>
-                        <p class="text-faded mb-0">I mustache you a question...</p>
+            </div>
+        </div>
+        <!-- End testimonials end -->
+
+        <!-- Start Footer bottom Area -->
+        <footer class="footer1">
+            <div class="footer-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5 col-xs-12">
+                            <div class="footer-content logo-footer">
+                                <div class="footer-head">
+                                    <div class="footer-logo">
+                                    	<a class="footer-black-logo image-fluid" href="#"><img src="img/logo/logo_color.svg" width="200"  alt=""></a>
+                                    	<a class="footer-white-logo image-fluid" href="#"><img src="img/logo/logo_white.svg" width="200"  alt=""></a>
+                                    </div>
+                                    <p>Are you looking for new products and services in the area of Artificial Intelligence for your business, please subscribe to MadeEasyy our executive will reply you soon.</p>
+                                    <div class="subs-feilds">
+                                        <div class="suscribe-input">
+                                            <input type="email" class="email form-control width-80" id="sus_email" placeholder="Type Email">
+                                            <button type="submit" id="sus_submit" class="add-btn">Subscribe</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end single footer -->
+                        <div class="col-md-4 col-sm-3 col-xs-12">
+                            <div class="footer-content">
+                                <div class="footer-head">
+                                    <h4>Services Link</h4>
+                                    <ul class="footer-list">
+                                        <li><a>Business</a></li>
+                                        <li><a>Agency </a></li>
+                                        <li><a>Social media</a></li>
+                                        <li><a>Branding</a></li>
+                                        <li><a>Design </a></li>
+                                    </ul>
+                                    <ul class="footer-list hidden-sm">
+										<li><a>Search engine</a></li>
+                                        <li><a>Online support</a></li>
+                                        <li><a>Development</a></li>
+                                        <li><a>Pay per click</a></li>
+                                        <li><a>Event activation</a></li>
+									</ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end single footer -->
+                        <div class="col-md-3 col-sm-4 col-xs-12">
+                            <div class="footer-content last-content">
+                                <div class="footer-head">
+                                    <h4>Information</h4>
+                                    <div class="footer-contacts">
+										
+										<p><span>Email :</span> datascienceanywhere@gmail.com</p>
+										<p><span>Location :</span> Hyderabad, India</p>
+									</div>
+                                    <div class="footer-icons">
+                                        <ul>
+                                            <li>
+                                                <a>
+                                                    <i class="fa fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <i class="fa fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <i class="fa fa-google"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <i class="fa fa-pinterest"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a>
+                                                    <i class="fa fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Callout-->
-        <section class="callout">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mx-auto mb-5">
-                   <span style="color: white;">
-                    <em>Project</em>
-                    Based Courses
-                   </span> 
-                    
-                </h2>
-                <a class="btn btn-primary btn-xl" 
-                href="https://www.udemy.com/user/freeai-space/">Click Here</a>
-            </div>
-        </section>
-        
-        <!-- Call to Action-->
-        <section class="content-section bg-primary text-white">
-            <div class="container px-4 px-lg-5 text-center">
-                <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-                <a class="btn btn-xl btn-light me-4" href="#!">Click Me!</a>
-                <a class="btn btn-xl btn-dark" href="#!">Look at Me!</a>
-            </div>
-        </section>
-        <!-- Map-->
-        <!-- <div class="map" id="contact">
-            <iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-            <br />
-            <small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a></small>
-        </div> -->
-        <!-- Footer-->
-        <footer class="footer text-center">
-            <div class="container px-4 px-lg-5">
-                <ul class="list-inline mb-5">
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-facebook"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
-                    </li>
-                </ul>
-                <p class="text-muted small mb-0">Copyright &copy; datascienceanywhere 2022</p>
+            <div class="footer-area-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="copyright">
+                                <p>
+                                    Copyright © 2019
+                                    <a href="#">Data Science Anywhere</a> All Rights Reserved
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+
+		<!-- all js here -->
+
+		<!-- jquery latest version -->
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+		<!-- bootstrap js -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- owl.carousel js -->
+		<script src="js/owl.carousel.min.js"></script>
+		<!-- Counter js -->
+		<script src="js/jquery.counterup.min.js"></script>
+		<!-- waypoint js -->
+		<script src="js/waypoints.js"></script>
+		 <!-- stellar js -->
+        <script src="js/jquery.stellar.min.js"></script>
+		<!-- magnific js -->
+        <script src="js/magnific.min.js"></script>
+        <!-- wow js -->
+        <script src="js/wow.min.js"></script>
+        <!-- meanmenu js -->
+        <script src="js/jquery.meanmenu.js"></script>
+		<!-- Form validator js -->
+		<script src="js/form-validator.min.js"></script>
+		<!-- plugins js -->
+		<script src="js/plugins.js"></script>
+		<!-- main js -->
+		<script src="js/main.js"></script>
+	</body>
 </html>
